@@ -33,7 +33,7 @@ string initializer(const string& inputPhrase) {
         }
     }
 
-    // Handle the case where the string starts with a minus sign
+
     if (!phrase.empty() && phrase[0] == '-') {
         phrase = "0" + phrase;
     }
